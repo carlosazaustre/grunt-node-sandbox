@@ -1,0 +1,27 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'start' ]
+2 info using npm@1.2.10
+3 info using node@v0.8.19
+4 verbose read json /Development/sandbox/grunt-test/myapp/package.json
+5 verbose run-script [ 'prestart', 'start', 'poststart' ]
+6 info prestart application-name@0.0.1
+7 info start application-name@0.0.1
+8 verbose unsafe-perm in lifecycle true
+9 silly exec sh "-c" "node app.js"
+10 silly sh,-c,node app.js,/Development/sandbox/grunt-test/myapp spawning
+11 error Error: write EPIPE
+11 error     at errnoException (net.js:770:11)
+11 error     at Object.afterWrite (net.js:594:19)
+12 error If you need help, you may report this log at:
+12 error     <http://github.com/isaacs/npm/issues>
+12 error or email it to:
+12 error     <npm-@googlegroups.com>
+13 error System Darwin 12.4.0
+14 error command "node" "/usr/local/bin/npm" "start"
+15 error cwd /Development/sandbox/grunt-test/myapp
+16 error node -v v0.8.19
+17 error npm -v 1.2.10
+18 error syscall write
+19 error code EPIPE
+20 error errno EPIPE
+21 verbose exit [ 1, true ]
